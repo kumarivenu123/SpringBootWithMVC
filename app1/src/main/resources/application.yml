@@ -1,0 +1,18 @@
+server:
+  port: 9999
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/ 
+      suffix: .jsp
+      
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql:///venu
+#    username: root
+#    password: venu
